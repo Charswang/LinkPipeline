@@ -4,8 +4,19 @@
 
 > 联机分析
 
+##### 引擎
+
 MergeTree
+
+CollapsingMergerTree
+
+ReplicatedMergerTree
+
+Log
+
+
 
 shard & replica
 
 聚合操作
+
