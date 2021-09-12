@@ -86,19 +86,36 @@ Interpereter：xxx
 
 #### 备份与还原分区
 
+---
 
+### 数据字典<font color="red">P80</font>？？？？
 
-### 数据字典<font color="red">P80</font>
+字典数据常驻内存。非常适合保存常量或者经常使用的维度表数据。避免不必要的join查询。
 
+- 内置字典
+- 扩展字典
 
+内置字典目前没有内置任何数据。config.xml中的**path_to_regions_hierarchy_file**和**path_to_regions_names_files**打开。
+
+扩展字典。config.xml中的**dictionaries_config**配置项指定。
+
+---
 
 ### 表引擎
 
 https://blog.csdn.net/vkingnew/article/details/106988056
 
-**<font color="red">MergeTree</font>**
+**<font color="red">MergeTree</font>**与其家族系列*MergeTree
 
 > MergeTree表引擎支持**主键索引**，**数据分区**、**数据副本**、**数据采样**等，**支持Alter**操作等
+
+MergeTree以数据片段的形式写入磁盘，并且定期合并这些数据片段。
+
+
+
+P108
+
+
 
 
 
