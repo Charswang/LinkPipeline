@@ -15,3 +15,4 @@ select count(distinct b.score) from scores as b where b.score >= a.score
 DDL：针对数据库、表、视图等的操作。
 
 DML：增删改查数据的操作
+
